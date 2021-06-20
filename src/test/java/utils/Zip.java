@@ -16,5 +16,8 @@ public class Zip {
 
     public static void unzip(String path, String unzipPath) throws ZipException {
         unzip(path, unzipPath, "");
+        System.out.println("test1");
+        System.out.println("test2");
+        System.out.println("test3");
     }
 }
